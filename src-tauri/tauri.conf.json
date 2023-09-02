@@ -8,7 +8,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "ChatGPT Next Web",
+    "productName": "小不点专用",
     "version": "2.9.5"
   },
   "tauri": {
@@ -85,7 +85,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/Yidadaa/ChatGPT-Next-Web/releases/latest/download/latest.json"
+        ""
       ],
       "dialog": false,
       "windows": {
@@ -95,10 +95,10 @@
     },
     "windows": [
       {
-        "fullscreen": false,
+        "fullscreen": true,
         "height": 600,
-        "resizable": true,
-        "title": "ChatGPT Next Web",
+        "resizable": false,
+        "title": "小不点专用",
         "width": 960,
         "hiddenTitle": true,
         "titleBarStyle": "Overlay"

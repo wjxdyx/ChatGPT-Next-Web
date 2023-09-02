@@ -129,7 +129,8 @@ function Screen() {
   useEffect(() => {
     loadAsyncGoogleFont();
   }, []);
-
+  config.tightBorder = true;
+  console.log(config.tightBorder);
   return (
     <div
       className={
